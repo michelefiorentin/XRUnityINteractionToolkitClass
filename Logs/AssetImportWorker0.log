@@ -1,0 +1,512 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/00github/XRUnityINteractionToolkitClass
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51871
+Successfully changed project path to: C:/00github/XRUnityINteractionToolkitClass
+C:/00github/XRUnityINteractionToolkitClass
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 95.65 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.64 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/00github/XRUnityINteractionToolkitClass/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3952 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007758 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.20 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (917ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (126ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.50 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\00github\XRUnityINteractionToolkitClass\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\00github\XRUnityINteractionToolkitClass\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2285ms)
+		BeginReloadAssembly (295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (1810ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (619ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (918ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (501ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (0.7 MB). Loaded Objects now: 4702.
+Memory consumption went from 196.6 MB to 195.9 MB.
+Total: 6.156200 ms (FindLiveObjects: 0.469100 ms CreateObjectMapping: 0.402200 ms MarkObjects: 4.818000 ms  DeleteObjects: 0.464800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166079.418428 seconds.
+  path: Assets/Scenes/XR scene both oculus and device simulator.unity
+  artifactKey: Guid(ae54c30a9a02a8a4797d61a26aed42b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/XR scene both oculus and device simulator.unity using Guid(ae54c30a9a02a8a4797d61a26aed42b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7458df3288b482fee9de6ba83dc36b51') in 0.011739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/red.mat
+  artifactKey: Guid(17eb349c8e87ee84bbe440b27bcf0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/red.mat using Guid(17eb349c8e87ee84bbe440b27bcf0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911c1144f56b96bb6f605dfd5514162b') in 0.429545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.272428 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/SimpleTeleportHighlight.mat
+  artifactKey: Guid(a16db0f18ace882458e325d3243cb6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/SimpleTeleportHighlight.mat using Guid(a16db0f18ace882458e325d3243cb6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5971e1a6c8f88c386f269d32cac353ad') in 0.014113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017146 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/TeleportAnchorPlatform.prefab
+  artifactKey: Guid(00e647f639ff7274bbb3c63576ed8285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/TeleportAnchorPlatform.prefab using Guid(00e647f639ff7274bbb3c63576ed8285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8a168c5664070647cd5c899adbaeae') in 0.092833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Models/teleportPlatform.fbx
+  artifactKey: Guid(e32a26f89dd1c054a9b1d309c79d8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Models/teleportPlatform.fbx using Guid(e32a26f89dd1c054a9b1d309c79d8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c88ce7935154d0854fa6880e59381c') in 0.134145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/XR Device Simulator Asset World Interaction/TeleportArea (1).prefab
+  artifactKey: Guid(fd85202f1f4745c44af1e83f920f663f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR Device Simulator Asset World Interaction/TeleportArea (1).prefab using Guid(fd85202f1f4745c44af1e83f920f663f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fadc69f8097c625720827fba406149') in 0.042165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/TeleportAnchor.mat
+  artifactKey: Guid(ab57f36f950246540add02f10443c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/TeleportAnchor.mat using Guid(ab57f36f950246540add02f10443c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6abe2a6879ab583f14d1ec364757ed') in 0.017743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/TeleportAnchor.prefab
+  artifactKey: Guid(69bcbe8a3c723a8459bad61946074109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/TeleportAnchor.prefab using Guid(69bcbe8a3c723a8459bad61946074109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769728bd727ebb0b6f1cf96682297f55') in 0.021760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/TeleportHoverMat.mat
+  artifactKey: Guid(647e2d9db79a4f141b45f5fa9cb7d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/TeleportHoverMat.mat using Guid(647e2d9db79a4f141b45f5fa9cb7d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b31ccdd87033ff6db71b601f2cd6fd') in 0.021967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/teleportReticle.prefab
+  artifactKey: Guid(c9ea54082e6151843acb776fb52ed6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/teleportReticle.prefab using Guid(c9ea54082e6151843acb776fb52ed6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692b53861daa13f6825a5b8697c8a284') in 0.018615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Materials/Teleportation.mat
+  artifactKey: Guid(a348394afb5a4c94995958a8f3aecd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Materials/Teleportation.mat using Guid(a348394afb5a4c94995958a8f3aecd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8dca96a18d9bfb8abe5b0239002717') in 0.025069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/TeleportPlatform.mat
+  artifactKey: Guid(e24f978701c3eef44aba73f63b5fe62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Materials/TeleportPlatform.mat using Guid(e24f978701c3eef44aba73f63b5fe62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d61dfd8be5c4a12784eb425beb17a41') in 0.021815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Models/teleportPlatform.fbx
+  artifactKey: Guid(4e2f535eb595f4c41a1d4c425ed0a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Models/teleportPlatform.fbx using Guid(4e2f535eb595f4c41a1d4c425ed0a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571aae2516198c699de29732a433e09e') in 0.112680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/TeleportArea.prefab
+  artifactKey: Guid(3cc52c00d082b0b4a91897cd5bdf0c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/TeleportArea.prefab using Guid(3cc52c00d082b0b4a91897cd5bdf0c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2562eff0996d5430ea5c470ee88c87ad') in 0.030874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.739234 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Scenes/Teleportation.unity
+  artifactKey: Guid(56d4a4efd7d3f9c49a6e0a1bf359cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Scenes/Teleportation.unity using Guid(56d4a4efd7d3f9c49a6e0a1bf359cab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1147ad4c99fe75d2681fdbabc26543') in 0.001770 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\00github\XRUnityINteractionToolkitClass\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\00github\XRUnityINteractionToolkitClass\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2363ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1924ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (963ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (571ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 4797.
+Memory consumption went from 210.1 MB to 209.4 MB.
+Total: 6.044200 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.250300 ms MarkObjects: 4.891200 ms  DeleteObjects: 0.487500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.609378 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/Anchor.prefab
+  artifactKey: Guid(596de90f3b56c1d4b822ecd5cd042af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/Anchor.prefab using Guid(596de90f3b56c1d4b822ecd5cd042af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cf9567847cdb5452e829b2e45d0f49') in 0.407000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/XR Device Simulator Asset World Interaction/InteractionManager.prefab
+  artifactKey: Guid(26e38928232432b498b1a74519d5c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR Device Simulator Asset World Interaction/InteractionManager.prefab using Guid(26e38928232432b498b1a74519d5c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043143ee8b5ea7c518ec2ea5963bd8f1') in 0.013596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Candle.prefab
+  artifactKey: Guid(5f8ab9c7ee6dbd043b21535eae1b7a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Candle.prefab using Guid(5f8ab9c7ee6dbd043b21535eae1b7a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5876cd84b528d05ca47c40a0605a57') in 0.068010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/controller.prefab
+  artifactKey: Guid(902b196ba17fa284bae10bdc5878a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/controller.prefab using Guid(902b196ba17fa284bae10bdc5878a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f3c83094f14088e1702d4779294d51') in 0.023180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/InstantCube.prefab
+  artifactKey: Guid(c91b6479bcc5dc94f8290551ae3e6d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/InstantCube.prefab using Guid(c91b6479bcc5dc94f8290551ae3e6d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef28b177aaf3b92584ded9c2b9f8effa') in 0.045799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Bedside_Lamp.prefab
+  artifactKey: Guid(b4efa8f8fa0545f47b21910033875021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Bedside_Lamp.prefab using Guid(b4efa8f8fa0545f47b21910033875021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf31b8acbe1acf52883880d623e019d') in 0.020922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Candy_Cane.prefab
+  artifactKey: Guid(017b8446764d3a840b0ca02d15201294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Candy_Cane.prefab using Guid(017b8446764d3a840b0ca02d15201294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e20a03dd2327dc33a5219bcd52262ab') in 0.039213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Garland_2.prefab
+  artifactKey: Guid(f2a321f588cfc7d4cb4c5e702527700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Garland_2.prefab using Guid(f2a321f588cfc7d4cb4c5e702527700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0807f8d540bb79fafdb432fb0b50e96f') in 0.025462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Gingerbread.prefab
+  artifactKey: Guid(0dbed18940c65fb4f9d8b60721158ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Gingerbread.prefab using Guid(0dbed18940c65fb4f9d8b60721158ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5980a8c9fe3807323d8df1e1c7c733') in 0.037113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/XR Device Simulator Asset World Interaction/Input Action Manager.prefab
+  artifactKey: Guid(08b14aff537ddc940bba7dbf309d7ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR Device Simulator Asset World Interaction/Input Action Manager.prefab using Guid(08b14aff537ddc940bba7dbf309d7ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a710e1a136c3876dcbecb7c0980809') in 0.010623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/Environment.prefab
+  artifactKey: Guid(024bd816ca03dad4c906465a400b16d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/Environment.prefab using Guid(024bd816ca03dad4c906465a400b16d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cdff1b374ec06a53e36b03c6fb2857') in 0.011292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Frame_1.prefab
+  artifactKey: Guid(1035731b85efc9544b312dd6dfcee14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Frame_1.prefab using Guid(1035731b85efc9544b312dd6dfcee14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fcec50e62a55eb2f1d36d79851dd2c') in 0.032650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/oculus hands/Prefabs/Custom Left Hand Model.prefab
+  artifactKey: Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oculus hands/Prefabs/Custom Left Hand Model.prefab using Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29338c059af99376807286702e38121') in 1.102407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/fireplace.prefab
+  artifactKey: Guid(a683bfbbfaf93ca46beefd0d0ca19b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/fireplace.prefab using Guid(a683bfbbfaf93ca46beefd0d0ca19b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f121bd58ceaae699d175b14945e649') in 0.028014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XR Device Simulator Asset World Interaction/EventSystem.prefab
+  artifactKey: Guid(ef4ba1382943f9f438bc0e1f1af0d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR Device Simulator Asset World Interaction/EventSystem.prefab using Guid(ef4ba1382943f9f438bc0e1f1af0d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e66c11d365eb2729fb4ec9ad5ece01') in 0.011945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188237 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/Lights.prefab
+  artifactKey: Guid(610cd429b31defc4c8f3ce81736d4dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/Lights.prefab using Guid(610cd429b31defc4c8f3ce81736d4dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fb96f852f9bf27da7ec05aaddc7c49') in 0.008154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Oculus/LipSync/Prefabs/LipSyncTextureFlipTarget_Robot.prefab
+  artifactKey: Guid(8dc55266323c0ad439967b2975af7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Prefabs/LipSyncTextureFlipTarget_Robot.prefab using Guid(8dc55266323c0ad439967b2975af7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c94f453028796041a7d1d3ecd8e8a9') in 0.047612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab
+  artifactKey: Guid(0d336f164a5a4454db3960b2f9fc7a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab using Guid(0d336f164a5a4454db3960b2f9fc7a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412720950021b6d7480b2cdcb22d2939') in 0.067007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/LlamaBubbleGunPrefab.prefab
+  artifactKey: Guid(cca5e4e0da45560479c022557d04fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/LlamaBubbleGunPrefab.prefab using Guid(cca5e4e0da45560479c022557d04fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf27d91d136d583ac9c1e4a34c9eba6b') in 0.284863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.352321 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/InteractionZones/LocomotionArea.prefab
+  artifactKey: Guid(17888ece8f8f8774abd11ec75346ae60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/InteractionZones/LocomotionArea.prefab using Guid(17888ece8f8f8774abd11ec75346ae60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7160f49acf63c8897c7d1c2b6719f569') in 0.193533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Socks.prefab
+  artifactKey: Guid(e9f8371a79efcfc459039529b9a20ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Socks.prefab using Guid(e9f8371a79efcfc459039529b9a20ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6be8bb9b50686c9eae9102d7840ec4') in 0.096455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/Scene Introduction.prefab
+  artifactKey: Guid(d8fe685edbbcdde42a59c34dc04d504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/Scene Introduction.prefab using Guid(d8fe685edbbcdde42a59c34dc04d504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9850187c3042b17fc723436cb4387e') in 0.018617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Santa_Hat.prefab
+  artifactKey: Guid(a2aa58e98e281034995128f2341055c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Santa_Hat.prefab using Guid(a2aa58e98e281034995128f2341055c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127112f238bdf624661476afdd987d5b') in 0.028222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/Props.prefab
+  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfef9bd44565da320ed5ba5979ca1b0') in 5.187842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/VelocityTrackedCube.prefab
+  artifactKey: Guid(ed79eaa9dbed71a46b42588537c577a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/VelocityTrackedCube.prefab using Guid(ed79eaa9dbed71a46b42588537c577a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b112ec61c069965612cf81238bee35d7') in 0.028274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/InteractionZones/UIArea.prefab
+  artifactKey: Guid(a3414a3e7e94e454e8eafbae636b258f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/Prefabs/InteractionZones/UIArea.prefab using Guid(a3414a3e7e94e454e8eafbae636b258f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39994f0c7356b0c66d97c44dd84efac4') in 0.104176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/TooltipBlack.prefab
+  artifactKey: Guid(0c39e221d6d52c24891f93cfb161b1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR-Interaction-Toolkit-Examples-master/VR/Assets/VR Examples/Prefabs/TooltipBlack.prefab using Guid(0c39e221d6d52c24891f93cfb161b1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17f7ed68484fa069b7a6f2cd0e12661') in 0.050622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Minimalist Christmas/Prefabs/Table_2.prefab
+  artifactKey: Guid(93d48d271ee16704c8907967ff611334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Christmas/Prefabs/Table_2.prefab using Guid(93d48d271ee16704c8907967ff611334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ec1244bb948cb833214b149ad0102d') in 0.023899 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
